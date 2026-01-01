@@ -1,0 +1,1 @@
+version: '3.8' services: stealth-scraper: build: . environment: - PROXY_URL=${PROXY_URL} volumes: - ./data:/app/data restart: on-failure
